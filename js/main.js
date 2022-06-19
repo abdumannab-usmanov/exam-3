@@ -1,55 +1,55 @@
-let array = [false, true, false,true,true]
+// let array = [false, true, false,true,true]
 
 
-function func(arr){
-    var num = 0;
+// function func(arr){
+//     var num = 0;
 
-    for (i = 0; i < arr.length; i++){
-        if(arr[i] === true){
-            num++
-        }
-    }
-    return num
-}
+//     for (i = 0; i < arr.length; i++){
+//         if(arr[i] === true){
+//             num++
+//         }
+//     }
+//     return num
+// }
 
-console.log(func(array));
+// console.log(func(array));
 
 // =============2masala===============
 
-var numbers=[-2,-5,2,7,3,5];
+// var numbers=[-2,-5,2,7,3,5];
 
-function func(array){
-  var num = 0
-  for(abdu of array){
-    if(abdu > 0){
-      num += abdu
-    }
-  }
-  return num;
-}
-console.log(func(numbers));
+// function func(array){
+//   var num = 0
+//   for(abdu of array){
+//     if(abdu > 0){
+//       num += abdu
+//     }
+//   }
+//   return num;
+// }
+// console.log(func(numbers));
 
 
 // ==============3masala============
 
-var numbers=[1,3,0,5,0,7,0];
-function addition(array){
-var count = []
+// var numbers=[1,3,0,5,0,7,0];
+// function addition(array){
+// var count = []
 
-for(abdu of array){
-    if (abdu == 0){
-        count.push(abdu)
-    }else{
-        count.unshift(abdu)
-    }
+// for(abdu of array){
+//     if (abdu == 0){
+//         count.push(abdu)
+//     }else{
+//         count.unshift(abdu)
+//     }
 
-}
+// }
 
-return count("") 
+// return count("") 
 
-}
+// }
 
-console.log(addition(numbers));
+// console.log(addition(numbers));
 
 
 // =====================
@@ -63,10 +63,10 @@ var quantity = [
 function func(array){
   var expensive = array[0].price;
   var num = "";
-  for(i of array){
-    if(i.price > expensive){
-        expensive = i.price;
-      num = i.name;
+  for(abdu of array){
+    if(abdu.price > expensive){
+        expensive = abdu.price;
+      num = abdu.name;
    }
 }return num;
 }
